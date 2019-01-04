@@ -5,7 +5,8 @@ p{
   text-align: center;
 }
 .rightTab {
-
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: inline-block;
     text-align: left;
     width: 48%;
@@ -13,7 +14,8 @@ p{
 
 }
 .labels {
-
+    padding-top: 10px;
+    padding-bottom: px;
     display: inline-block;
     text-align: right;
     width: 40%;
@@ -21,4 +23,12 @@ p{
     vertical-align: top;
     margin-top: 10px;
 
+
+}
+form{
+  padding-left: 50px;
+  padding-top: 100px;
+  margin-left: 500px;
+  margin-right:500px;
+  background-color:yellow
 }
