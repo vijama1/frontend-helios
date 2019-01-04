@@ -1,6 +1,14 @@
 #main{
 
 }
+a{
+  text-decoration:underline;
+  color: red;
+
+}
+a:hover{
+  color: black;
+}
 #image {
 width: 100%;
 height: auto;
@@ -10,7 +18,6 @@ margin-right: auto;
 display: block;
 }
 #title{
- backgound-color:black;
 margin: 0px 0px 0px 0px;
     color: #D7B740;
   text-align:center;
@@ -22,8 +29,21 @@ margin: 0px 0px 0px 0px;
 #image-caption{
   text-align: center;
 }
+#timeline{
+  text-align: center;
+}
 #tribute-info{
   text-align: left;
   padding-left: 300px;
   padding-right: 300px;
+  font-size: 20px;
+  font-style: oblique;
+}
+.border-imprv {
+    background-color: rgb(43, 43, 43);
+    padding: 10px 35px;
+    border: 5px solid #D7B740;
+    border-radius: 10px;
+    color:white;
+
 }
