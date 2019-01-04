@@ -1,8 +1,20 @@
 h1{
   text-align: center;
+  font-family: serif;
+  color: white;
+  background-color: black;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 500px;
+  margin-right:500px;
+  vertical-align:middle;
 }
 p{
   text-align: center;
+}
+body{
+  background-color: #a9d7d1;
 }
 .rightTab {
     padding-top: 10px;
@@ -15,7 +27,7 @@ p{
 }
 .labels {
     padding-top: 10px;
-    padding-bottom: px;
+
     display: inline-block;
     text-align: right;
     width: 40%;
@@ -27,8 +39,8 @@ p{
 }
 form{
   padding-left: 50px;
-  padding-top: 100px;
+  padding-top: 10px;
   margin-left: 500px;
   margin-right:500px;
-  background-color:yellow
+  background-color:white
 }
