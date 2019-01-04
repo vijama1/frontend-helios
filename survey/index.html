@@ -6,7 +6,7 @@
 <body>
   <h1 id="title">A Survey Form</h1>
   <p id="description">A Simple survey form</p>
-  <form id="survey-form"class="" action="index.html" method="post">
+  <form id="survey-form" class="formClass" action="index.html" method="post">
     <div class="row">
       <div class="labels">
         <label id="name-label"for="name">Name</label>
@@ -17,15 +17,15 @@
     </div>
     <div class="row">
       <div class="labels">
-        <label id="email-label"for="name">Email</label>
+        <label id="email-label"for="email">Email</label>
       </div>
       <div class="rightTab">
-        <input type="text" id="email-input" name="name" value="" placeholder="Enter Your Email" required>
+        <input type="text" id="email-input" name="email" value="" placeholder="Enter Your Email" required>
       </div>
     </div>
     <div class="row">
       <div class="labels">
-        <label id="age-label"for="name">Name</label>
+        <label id="age-label"for="age">Age</label>
       </div>
       <div class="rightTab">
         <input type="number" id="age-input" name="age" value="" placeholder="Enter Your Age" min="1" max="125" required>
@@ -33,7 +33,7 @@
     </div>
     <div class="row">
       <div class="labels">
-        <label id="category-label"for="name">Which Describes you?</label>
+        <label id="category-label"for="category">Which Describes you?</label>
       </div>
       <div class="rightTab">
         <select class="dropdown" id="dropdown" name="role">
@@ -46,7 +46,7 @@
     </div>
     <div class="row">
       <div class="labels">
-        <label id="hear-label"for="name">From where did you hear about us?</label>
+        <label id="recommend-label"for="name">How would you like to recommend us?</label>
       </div>
       <div class="rightTab">
         <label for="definitely"><input id="definitely" type="radio" name="recommendation">Definitely</label>
@@ -85,10 +85,8 @@
         <textarea name="suggestions" rows="8" cols="50" placeholder="Suggestions"></textarea>
       </div>
     </div>
-    <div class="row">
-      <div class="labels">
+    <div class="buttons">
         <button type="button" name="button">Submit</button>
-      </div>
     </div>
 
 
