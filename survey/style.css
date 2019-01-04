@@ -27,7 +27,7 @@ body{
 }
 .labels {
     padding-top: 10px;
-
+    padding-bottom: 10px;
     display: inline-block;
     text-align: right;
     width: 40%;
@@ -37,10 +37,14 @@ body{
 
 
 }
-form{
+.formClass{
   padding-left: 50px;
   padding-top: 10px;
+  padding-bottom: 10px;
   margin-left: 500px;
   margin-right:500px;
   background-color:white
+}
+.buttons{
+  text-align: center;
 }
