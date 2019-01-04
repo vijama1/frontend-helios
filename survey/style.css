@@ -46,5 +46,40 @@ body{
   background-color:white
 }
 .buttons{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  background-color:#a9d7d1;
+}
+.button-div{
   text-align: center;
+}
+.radio-div{
+
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: inline-block;
+      text-align: left;
+      width: 48%;
+      vertical-align: middle;
+}
+.radio{
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.check-div{
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: inline-block;
+        text-align: left;
+        width: 48%;
+        vertical-align: middle;
+}
+.check{
+
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
