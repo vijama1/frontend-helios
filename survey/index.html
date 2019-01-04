@@ -24,10 +24,33 @@
   </div>
   <div class="row">
     <div class="labels">
-      <label id="name-label"for="name">Name</label>
+      <label id="age-label"for="name">Name</label>
     </div>
     <div class="rightTab">
       <input type="number" id="age-input" name="age" value="" placeholder="Enter Your Age" min="1" max="125" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="labels">
+      <label id="category-label"for="name">Which Describes you?</label>
+    </div>
+    <div class="rightTab">
+      <select class="dropdown" id="dropdown" name="role">
+        <option disabled="" value="">Select a Option</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="developer">Developer</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="labels">
+      <label id="hear-label"for="name">From where did you hear about us?</label>
+    </div>
+    <div class="rightTab">
+      <label for="definitely"><input id="definitely" type="radio" name="recommendation">Definitely</label>
+      <label for="maybe"><input id="maybe" type="radio" name="recommendation">Maybe</label>
+      <label for="no"><input id="no" type="radio" name="recommendation">No</label>
     </div>
   </div>
 
