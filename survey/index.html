@@ -3,92 +3,94 @@
   <title>Survey Form</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<h1 id="title">A Survey Form</h1>
-<p id="description">A Simple survey form</p>
-<form id="survey-form"class="" action="index.html" method="post">
-  <div class="row">
-    <div class="labels">
-      <label id="name-label"for="name">Name</label>
+<body>
+  <h1 id="title">A Survey Form</h1>
+  <p id="description">A Simple survey form</p>
+  <form id="survey-form"class="" action="index.html" method="post">
+    <div class="row">
+      <div class="labels">
+        <label id="name-label"for="name">Name</label>
+      </div>
+      <div class="rightTab">
+        <input type="text" id="name-input" name="name" value="" placeholder="Enter Your Name" required>
+      </div>
     </div>
-    <div class="rightTab">
-      <input type="text" id="name-input" name="name" value="" placeholder="Enter Your Name" required>
+    <div class="row">
+      <div class="labels">
+        <label id="email-label"for="name">Email</label>
+      </div>
+      <div class="rightTab">
+        <input type="text" id="email-input" name="name" value="" placeholder="Enter Your Email" required>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="labels">
-      <label id="email-label"for="name">Email</label>
+    <div class="row">
+      <div class="labels">
+        <label id="age-label"for="name">Name</label>
+      </div>
+      <div class="rightTab">
+        <input type="number" id="age-input" name="age" value="" placeholder="Enter Your Age" min="1" max="125" required>
+      </div>
     </div>
-    <div class="rightTab">
-      <input type="text" id="email-input" name="name" value="" placeholder="Enter Your Email" required>
+    <div class="row">
+      <div class="labels">
+        <label id="category-label"for="name">Which Describes you?</label>
+      </div>
+      <div class="rightTab">
+        <select class="dropdown" id="dropdown" name="role">
+          <option disabled="" value="">Select a Option</option>
+          <option value="student">Student</option>
+          <option value="teacher">Teacher</option>
+          <option value="developer">Developer</option>
+        </select>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="labels">
-      <label id="age-label"for="name">Name</label>
+    <div class="row">
+      <div class="labels">
+        <label id="hear-label"for="name">From where did you hear about us?</label>
+      </div>
+      <div class="rightTab">
+        <label for="definitely"><input id="definitely" type="radio" name="recommendation">Definitely</label>
+        <label for="maybe"><input id="maybe" type="radio" name="recommendation">Maybe</label>
+        <label for="no"><input id="no" type="radio" name="recommendation">No</label>
+      </div>
     </div>
-    <div class="rightTab">
-      <input type="number" id="age-input" name="age" value="" placeholder="Enter Your Age" min="1" max="125" required>
+    <div class="row">
+      <div class="labels">
+        <label id="category-label"for="name">Which you like most in FCC?</label>
+      </div>
+      <div class="rightTab">
+        <select class="dropdown" id="dropdown" name="role">
+          <option disabled="" value="select">Select a Option</option>
+          <option value="student">Theory</option>
+          <option value="teacher">Questions</option>
+          <option value="developer">Projects</option>
+        </select>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="labels">
-      <label id="category-label"for="name">Which Describes you?</label>
+    <div class="row">
+      <div class="labels">
+        <label id="hear-label"for="name">Any Improvements?</label>
+      </div>
+      <div class="rightTab">
+        <label for="definitely"><input id="definitely" type="checkbox" name="recommendation">Definitely</label>
+        <label for="maybe"><input id="maybe" type="checkbox" name="recommendation">Maybe</label>
+        <label for="no"><input id="no" type="checkbox" name="recommendation">No</label>
+      </div>
     </div>
-    <div class="rightTab">
-      <select class="dropdown" id="dropdown" name="role">
-        <option disabled="" value="">Select a Option</option>
-        <option value="student">Student</option>
-        <option value="teacher">Teacher</option>
-        <option value="developer">Developer</option>
-      </select>
+    <div class="row">
+      <div class="labels">
+        <label id="age-label"for="name">Any Suggestions?</label>
+      </div>
+      <div class="rightTab">
+        <textarea name="suggestions" rows="8" cols="50" placeholder="Suggestions"></textarea>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="labels">
-      <label id="hear-label"for="name">From where did you hear about us?</label>
+    <div class="row">
+      <div class="labels">
+        <button type="button" name="button">Submit</button>
+      </div>
     </div>
-    <div class="rightTab">
-      <label for="definitely"><input id="definitely" type="radio" name="recommendation">Definitely</label>
-      <label for="maybe"><input id="maybe" type="radio" name="recommendation">Maybe</label>
-      <label for="no"><input id="no" type="radio" name="recommendation">No</label>
-    </div>
-  </div>
-  <div class="row">
-    <div class="labels">
-      <label id="category-label"for="name">Which you like most in FCC?</label>
-    </div>
-    <div class="rightTab">
-      <select class="dropdown" id="dropdown" name="role">
-        <option disabled="" value="select">Select a Option</option>
-        <option value="student">Theory</option>
-        <option value="teacher">Questions</option>
-        <option value="developer">Projects</option>
-      </select>
-    </div>
-  </div>
-  <div class="row">
-    <div class="labels">
-      <label id="hear-label"for="name">Any Improvements?</label>
-    </div>
-    <div class="rightTab">
-      <label for="definitely"><input id="definitely" type="checkbox" name="recommendation">Definitely</label>
-      <label for="maybe"><input id="maybe" type="checkbox" name="recommendation">Maybe</label>
-      <label for="no"><input id="no" type="checkbox" name="recommendation">No</label>
-    </div>
-  </div>
-  <div class="row">
-    <div class="labels">
-      <label id="age-label"for="name">Any Suggestions?</label>
-    </div>
-    <div class="rightTab">
-      <textarea name="suggestions" rows="8" cols="50" placeholder="Suggestions"></textarea>
-    </div>
-  </div>
-  <div class="row">
-    <div class="labels">
-      <button type="button" name="button">Submit</button>
-    </div>
-  </div>
 
 
-</form>
+  </form>
+</body>
