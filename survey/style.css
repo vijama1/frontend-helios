@@ -1,0 +1,24 @@
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.rightTab {
+
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+
+}
+.labels {
+
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+
+}
